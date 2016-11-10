@@ -10,12 +10,22 @@ h2, h3 {
   font-weight: lighter;
 }
 body { 
-  margin: 2em; 
+  /*margin: 2em;*/ 
+  margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+  background: url('../img/background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
+
+
 body, input[text], button { 
   color: #888; 
   font-family: Cambria, Georgia; 
 }
+
+
 a {
   cursor: pointer;
   cursor: hand;
