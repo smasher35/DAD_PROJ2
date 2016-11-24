@@ -8,6 +8,7 @@ import { AppComponent }  from './app.component';
 import { AboutComponent }  from './about/about.component';
 import { LoginComponent } from './login/login.component';
 import { SignUpComponent } from './signup/signup.component';
+import { GameLobbyComponent } from './gamelobby/gamelobby.component';
 
 @NgModule({
   imports:[
@@ -20,7 +21,8 @@ import { SignUpComponent } from './signup/signup.component';
      AppComponent,
      AboutComponent,
      LoginComponent,
-     SignUpComponent
+     SignUpComponent,
+     GameLobbyComponent
   ],
   bootstrap:    [ AppComponent ]
 })
