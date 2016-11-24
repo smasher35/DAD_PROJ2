@@ -7,34 +7,35 @@
 
             <div style="padding-top:30px" class="panel-body">
                 <div style="float:right; font-size: 80%; position: relative; top:-10px">
-                    <a id="btn-chat" href="#" class="btn btn-warning">Chat Room</a>
-                    <a id="btn-newGame" href="#" class="btn btn-success">New Game</a>
+                    <a style="width:150px" id="btn-top10" href="#" class="btn btn-success">Top Ten</a>
+                    <a style="width:150px" id="btn-chat" href="#" class="btn btn-warning">Chat Room</a>
+                    <a style="width:150px" id="btn-newGame" href="#" class="btn btn-info">New Game</a>
                 </div>
                 <div id="pendingGames">
                     <br>
-                    <h2 style="color:white!important">Pending Games </h2>
+                    <h3 style="color:white!important">Pending Games </h3>
                     <br>
 
                     <div id="listpending">
-                        <table class="table table-bordered table-striped table-hover table-condensed table-responsive">
-                            <tr>
-                                <th>Id</th>
-                                <th>Creator</th> 
-                                <th>Players Waiting</th>
+                        <table class="table table-bordered table-striped table-hover table-condensed table-hover table-responsive">
+                            <tr style="height:30px!important;">
+                                <th style="width:100px">Id</th>
+                                <th style="width:500px">Creator</th> 
+                                <th style="width:350px">Players Waiting</th>
                                 <th></th>
                             </tr>
-                            <tr>
+                            <tr style="height:30px!important;">
                                 <td>1</td>
                                 <td>Ruben Bernardo</td> 
                                 <td>1</td>
-                                <td><a class="btn btn-danger">Join</a></td>
+                                <td><a style="height:100%!important; width:100%!important; position:relative!important;"class="btn btn-success">Join</a></td>
 
                             </tr>
-                            <tr>
-                                <td>2</td>
+                            <tr style="height:30px!important;">
+                                <td style="height:10px;">2</td>
                                 <td>Bruno Paixão</td> 
                                 <td>2</td>
-                                <td><a style="height=100%;!important width=100%; position:relative;"class="btn btn-danger">Join</a></td>
+                                <td ><a style="height:100%!important; width:100%!important; position:relative!important;" class="btn btn-success">Join</a></td>
                             </tr>    
                         </table>
                     </div>
@@ -42,34 +43,40 @@
 
                 <div id="runningGames">
                     <br>
-                    <h2 style="color:white!important">Running Games </h2>
+                    <h3 style="color:white!important">Running Games </h3>
                     <br>
                     <div id="listrunning">
-                        <table class="table table-bordered table-striped table-hover table-condensed table-responsive">
+                        <table class="table table-bordered table-striped table-hover table-condensed table-hover table-responsive">
                             <tr>
-                                <th>Id</th>
-                                <th>Creator</th> 
-                                <th>Total Players</th>
+                                <th style="width:100px">Id</th>
+                                <th style="width:500px">Creator</th> 
+                                <th style="width:350px">Total Players</th>
                                 <th></th>
                             </tr>
                             <tr>
                                 <td>3</td>
                                 <td>Paulo Penicheiro</td> 
                                 <td>3</td>
-                                <td><a class="btn btn-primary">Watch</a></td>
+                                <td><a style="height:100%!important; width:100%!important; position:relative!important;"class="btn btn-primary">Watch</a></td>
 
                             </tr>
                             <tr>
                                 <td>4</td>
                                 <td>Bruno Paixão</td> 
                                 <td>2</td>
-                                <td><a style="height=100%;!important width=100%; position:relative;"class="btn btn-primary">Watch</a></td>
+                                <td><a style="height:100%!important; width:100%!important; position:relative!important;" class="btn btn-primary">Watch</a></td>
                             </tr>    
                                 
                         </table>
                     </div>
                 </div>
                 
+                <div class="idlogout">.
+                        <br>
+                        <hr>
+                        <a style="float:right;  position: relative;" class="btn btn-danger">Log Out</a>
+                        <br>
+                </div>
 
             </div><!-- end panel-body -->
         </div><!-- end panel -->

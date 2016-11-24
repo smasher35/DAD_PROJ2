@@ -209,5 +209,11 @@ hr{
 }
 
 
+/* Table Row height */
+table td {
+    height: 10px!important;
+}
 
-
+.btn {
+  padding: 0px 15px!important;
+}
