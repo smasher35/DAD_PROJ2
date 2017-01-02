@@ -2,10 +2,8 @@
     <div id="toptenbox" style="margin-top:50px;" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">                    
         <div class="panel panel-info" >
             <div class="panel-heading">
-                <div class="panel-title">BATTLESHIP - TOP TEN</div>
-                
+                <div class="panel-title">BATTLESHIP - TOP TEN</div> 
             </div>     
-
             <div style="padding-top:30px" class="panel-body" >
                 <div class=bs-example data-example-id=bordered-table>
                      <table class="table table-bordered">
@@ -17,26 +15,15 @@
                                 </tr>
                            </thead>
                             <tbody>
-                                <tr>
+                                <tr *ngFor="let item of highScores" >
                                     <th scope=row>1</th>
-                                        <td>Mark</td>
-                                        <td>12</td>
+                                        <td>{{item.name}}</td>
+                                        <td>{{item.totalVictories}}</td>
                                 </tr>
-                                 <tr>
-                                    <th scope=row>2</th>
-                                         <td>Jacob</td>
-                                         <td>5</td> 
-                                </tr>
-                                <tr>
-                                    <th scope=row>3</th>
-                                        <td>Larry</td> 
-                                        <td>3</td>
-                                </tr> 
+                                 
                             </tbody> 
                     </table> 
-                </div>
-                 
-                
+                </div>  
             </div> 
             <div style="padding-top:30px; padding-bottom: 30px" class="panel-footer" >
                 <div style="float:right; font-size: 80%; position: relative; top:-10px; margin-bottom: 10px" >
