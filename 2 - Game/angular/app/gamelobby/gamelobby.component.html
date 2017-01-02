@@ -7,9 +7,8 @@
 
             <div style="padding-top:30px" class="panel-body">
                 <div style="float:right; font-size: 80%; position: relative; top:-10px">
-                    <a style="width:150px" id="btn-top10" href="#" class="btn btn-success">Top Ten</a>
-                    <a style="width:150px" id="btn-chat" href="#" class="btn btn-warning">Chat Room</a>
-                    <a style="width:150px" id="btn-newGame" href="#" class="btn btn-info">New Game</a>
+                    <a style="width:150px" id="btn-top10" class="btn btn-success" routerLink ="/topten">Top Ten</a>
+                    <a style="width:150px" id="btn-newGame" class="btn btn-info" routerLink ="/board">New Game</a>
                 </div>
                 <div id="pendingGames">
                     <br>
@@ -69,6 +68,10 @@
                                 
                         </table>
                     </div>
+                </div>
+                <hr>
+                <div>
+                    <chat-control></chat-control>
                 </div>
                 
                 <div class="idlogout">.
